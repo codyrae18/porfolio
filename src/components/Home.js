@@ -3,10 +3,16 @@ import { Image } from "react-bootstrap";
 
 function Home() {
   return (
-    <div>
+    <div className="home">
       <div className="profile">
         <Image
-          style={{ width: "400px", height: "500px", margin: "auto" }}
+          style={{
+            display: "flex",
+            maxWidth: "230px",
+            maxHeight: "155px",
+            width: "auto",
+            height: "auto"
+          }}
           src="https://i.pinimg.com/originals/61/27/d6/6127d6321792e13626389c0d0b4e81e6.jpg"
           roundedCircle
         />
@@ -24,6 +30,7 @@ function Home() {
           creating platforms that incorporate my other passion, Photography.
         </p>
       </div>
+      <div></div>
     </div>
   );
 }
