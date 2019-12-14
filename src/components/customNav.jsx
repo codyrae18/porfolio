@@ -25,7 +25,7 @@ class CustomNav extends Component {
               <Col>
                 <a
                   style={{ display: "table-cell" }}
-                  href="https://docs.google.com/document/d/1uQrd9MzPF5DDZ2V1Pad30H9CXHs0CFJzQQGTu0MobeQ/edit"
+                  href="https://docs.google.com/document/d/1mbNJ6tn9LsMUcaM8Ze69xQqKT3sSZTTdhZDG1lMVyKM/edit"
                   // eslint-disable-next-line react/jsx-no-target-blank
                   target="_blank"
                 >

@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Col, Row, Button } from "react-bootstrap";
-
+import photoandcamera1 from "../photoandcamera/photoandcamera1.png";
 function Projects() {
   return (
     <div>
@@ -9,18 +9,15 @@ function Projects() {
           <Col>
             <Card style={{ width: "20rem" }}>
               <div className="overflow">
-                <Card.Img
-                  variant="top"
-                  src="https://images.unsplash.com/photo-1571993003534-d55c7adb0d17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1001&q=80"
-                />
+                <Card.Img variant="top" src={photoandcamera1} />
               </div>
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Photos and Cameras</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  A website for Photographers and Photography that can share
+                  photos and see other people’s images.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Button variant="primary">Git Hub</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -33,12 +30,12 @@ function Projects() {
                 />
               </div>
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>fitCalisthenix</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  A website that can help you motivated in fitness without any
+                  gym membership needed.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Button variant="primary">Git Hub</Button>
               </Card.Body>
             </Card>
           </Col>
@@ -51,12 +48,12 @@ function Projects() {
                 />
               </div>
               <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>ThisPacificPlace</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  This is a traveling website that could show you different
+                  tourist spots and adventures specifically in the Philippines.
                 </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
+                <Button variant="primary">Git Hub</Button>
               </Card.Body>
             </Card>
           </Col>
