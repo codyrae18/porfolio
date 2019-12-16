@@ -18,7 +18,16 @@ function Projects() {
                   A website for Photographers and Photography that can share
                   photos and see other people’s images.
                 </Card.Text>
-                <Button variant="primary">Git Hub</Button>
+                <Button variant="primary">
+                  <a
+                    style={{ display: "table-cell" }}
+                    href="https://github.com/codyrae18/photoandcamera-frontend"
+                    // eslint-disable-next-line react/jsx-no-target-blank
+                    target="_blank"
+                  >
+                    Git Hub
+                  </a>
+                </Button>
               </Card.Body>
             </Card>
           </Col>
@@ -33,7 +42,16 @@ function Projects() {
                   A website that can help you motivated in fitness without any
                   gym membership needed.
                 </Card.Text>
-                <Button variant="primary">Git Hub</Button>
+                <Button variant="primary">
+                  <a
+                    style={{ display: "table-cell" }}
+                    href="https://github.com/codyrae18/FitCalisthenix-backend"
+                    // eslint-disable-next-line react/jsx-no-target-blank
+                    target="_blank"
+                  >
+                    Git Hub
+                  </a>
+                </Button>
               </Card.Body>
             </Card>
           </Col>
@@ -51,7 +69,16 @@ function Projects() {
                   This is a traveling website that could show you different
                   tourist spots and adventures specifically in the Philippines.
                 </Card.Text>
-                <Button variant="primary">Git Hub</Button>
+                <Button variant="primary">
+                  <a
+                    style={{ display: "table-cell" }}
+                    href="https://github.com/codyrae18/thisPacificPlace"
+                    // eslint-disable-next-line react/jsx-no-target-blank
+                    target="_blank"
+                  >
+                    Git Hub
+                  </a>
+                </Button>
               </Card.Body>
             </Card>
           </Col>
