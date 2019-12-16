@@ -1,6 +1,7 @@
 import React from "react";
 import { Card, Col, Row, Button } from "react-bootstrap";
 import photoandcamera1 from "../photoandcamera/photoandcamera1.png";
+import fit from "../photoandcamera/fit.png";
 function Projects() {
   return (
     <div>
@@ -24,10 +25,7 @@ function Projects() {
           <Col>
             <Card style={{ width: "20rem" }}>
               <div className="overflow">
-                <Card.Img
-                  variant="top"
-                  src="https://images.unsplash.com/photo-1572270907014-c31da1c54124?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80"
-                />
+                <Card.Img variant="top" src={fit} />
               </div>
               <Card.Body>
                 <Card.Title>fitCalisthenix</Card.Title>
