@@ -8,7 +8,7 @@ function Projects() {
       <div className="projects">
         <Row>
           <Col>
-            <Card style={{ width: "20rem" }}>
+            <Card style={{ width: "30rem" }}>
               <div className="overflow">
                 <Card.Img variant="top" src={photoandcamera1} />
               </div>
@@ -32,7 +32,7 @@ function Projects() {
             </Card>
           </Col>
           <Col>
-            <Card style={{ width: "20rem" }}>
+            <Card style={{ width: "30rem" }}>
               <div className="overflow">
                 <Card.Img variant="top" src={fit} />
               </div>
@@ -56,7 +56,7 @@ function Projects() {
             </Card>
           </Col>
           <Col>
-            <Card style={{ width: "20rem" }}>
+            <Card style={{ width: "30rem" }}>
               <div className="overflow">
                 <Card.Img
                   variant="top"

@@ -23,6 +23,14 @@ nav {
   top: 0;
   z-index: 10000;
 }
+
+.header-img {
+  background: url("https://images.unsplash.com/photo-1546146830-2cca9512c68e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80")
+    no-repeat fixed bottom;
+  background-position: center;
+  background-size: cover;
+  height: 40rem;
+}
 .nav-detail {
   margin: auto;
 }
@@ -60,8 +68,8 @@ nav {
   padding-top: 80px;
   padding-right: 5%;
   padding-left: 5%;
-  width: 80%;
-  margin: auto;
+  margin-left: 25%;
+  margin-right: 25%;
   text-align: -webkit-center;
 }
 
@@ -99,4 +107,8 @@ nav {
 
 .overflow {
   overflow: hidden;
+}
+
+.header-photo img {
+  transform: scale(1);
 }
