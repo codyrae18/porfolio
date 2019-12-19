@@ -68,9 +68,8 @@ nav {
   padding-top: 80px;
   padding-right: 5%;
   padding-left: 5%;
-  max-width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 80%;
+  margin: auto;
   text-align: -webkit-center;
 }
 
@@ -81,6 +80,11 @@ nav {
   width: 80%;
   margin: auto;
 }
+/* 
+.card {
+  max-width: 350px;
+  max-height: 350px;
+} */
 
 .card:hover {
   box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
