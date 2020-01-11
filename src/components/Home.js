@@ -1,22 +1,9 @@
 import React from "react";
-import { Image } from "react-bootstrap";
+// import { Image } from "react-bootstrap";
 
 function Home() {
   return (
     <div className="home">
-      <div className="profile">
-        <Image
-          style={{
-            display: "flex",
-            maxWidth: "230px",
-            maxHeight: "155px",
-            width: "auto",
-            height: "auto"
-          }}
-          src="https://i.pinimg.com/originals/61/27/d6/6127d6321792e13626389c0d0b4e81e6.jpg"
-          roundedCircle
-        />
-      </div>
       <div className="home-detail">
         <p>
           Hi Everyone, My name is Cody Lawdermilt and I’m originally from Leyte,

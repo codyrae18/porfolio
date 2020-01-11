@@ -13,8 +13,8 @@
   text-align: center;
   margin: auto;
   width: 50%;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 20%;
+  padding-bottom: 20%;
   font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -61,7 +61,15 @@ nav {
 
 .home {
   background-image: url("https://images.pexels.com/photos/733857/pexels-photo-733857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+.home p {
+  opacity: 100%;
+  font-weight: bold;
 }
 
 .projects {
