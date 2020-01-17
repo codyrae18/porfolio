@@ -4,7 +4,7 @@ import photoandcamera1 from "../photoandcamera/photoandcamera1.png";
 import fit from "../photoandcamera/fit.png";
 function Projects() {
   return (
-    <div>
+    <div className="pro">
       <div className="projects">
         <Row>
           <Col>

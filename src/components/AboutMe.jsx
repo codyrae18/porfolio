@@ -3,7 +3,7 @@ import { Image } from "react-bootstrap";
 
 function AboutMe() {
   return (
-    <div>
+    <div className="pro">
       <div className="profile">
         <Image
           style={{
